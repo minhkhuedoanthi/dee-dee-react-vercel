@@ -1,0 +1,13 @@
+.login {
+    width: 113px;
+    position: relative;
+    font-size: var(--font-size-21xl);
+    letter-spacing: -0.01em;
+    font-weight: 900;
+    font-family: var(--font-lato);
+    color: var(--color-white);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 55px;
+  }

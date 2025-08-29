@@ -1,0 +1,71 @@
+.scan-profile,
+.toggle-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.toggle-child {
+  border-radius: var(--br-51xl);
+  border: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  width: 424px;
+  height: 70px;
+}
+.scan-profile {
+  line-height: 22px;
+}
+.scan-profile-wrapper {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 24px;
+  left: 281px;
+  width: 74px;
+  height: 22px;
+  color: inherit;
+}
+.group-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-24xl);
+  background: linear-gradient(
+    126.21deg,
+    #6a35ee,
+    #9930ef 15.28%,
+    #5737ee 53.18%,
+    #795ceb
+  );
+  width: 204px;
+  height: 54px;
+}
+.your-profile {
+  position: absolute;
+  top: 16px;
+  left: 61px;
+  line-height: 22px;
+}
+.group-div {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 204px;
+  height: 54px;
+  font-size: var(--font-size-base);
+}
+.group-yourprofileswitch,
+.toggle-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 424px;
+  height: 70px;
+}
+.group-yourprofileswitch {
+  top: 201px;
+  left: 507px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}

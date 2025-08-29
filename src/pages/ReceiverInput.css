@@ -1,0 +1,32 @@
+.group-receiverurl {
+  border: 1px solid var(--color-lightslategray);
+  background-color: transparent;
+  font-family: var(--font-lato);
+  font-size: var(--font-size-lg);
+  outline: 0;
+  position: absolute;
+  top: 309px;
+  left: 426px;
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  box-sizing: border-box;
+  width: 592px;
+  height: 70px;
+  padding: var(--padding-14xl) var(--padding-5xl);
+  color: var(--color-white);
+}
+.receiver-input-inner {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 833px;
+  left: 627px;
+  width: 190px;
+  height: 60px;
+}
+.receiver-input {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  height: 1024px;
+  overflow: hidden;
+}

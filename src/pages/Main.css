@@ -1,0 +1,113 @@
+.main-1 {
+  background-color: var(--color-gray-200) !important;
+  width: 100%;
+  position: relative;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
+
+.networking,
+.so-much-easier,
+.we-make {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 130px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.we-make {
+  top: 0;
+  white-space: pre-wrap;
+}
+.networking,
+.so-much-easier {
+  top: 102px;
+}
+.networking {
+  top: 0;
+  left: 413px;
+  background: linear-gradient(
+    126.21deg,
+    #6a35ee,
+    #9930ef 15.28%,
+    #5737ee 53.18%,
+    #795ceb
+  );
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.simply-upload-a,
+.we-make-parent {
+  position: absolute;
+  top: 280px;
+  left: 210px;
+  width: 892px;
+  height: 232px;
+}
+.simply-upload-a {
+  margin: 0;
+  top: 546px;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  width: 840px;
+  height: 124px;
+}
+.buy-button-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-150xl);
+  background: linear-gradient(
+    126.21deg,
+    #6a35ee,
+    #9930ef 15.28%,
+    #5737ee 53.18%,
+    #795ceb
+  );
+}
+.starts-now {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 75px);
+  line-height: 22px;
+  font-weight: 700;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+.buy-button,
+.main-1,
+.starts-now {
+  cursor: pointer;
+  text-decoration: none;
+}
+.buy-button {
+  position: absolute;
+  top: 759px;
+  left: 570px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-8xs);
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: inherit;
+}

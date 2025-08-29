@@ -1,0 +1,73 @@
+.instance-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(178.92deg, #070a17 75%, rgba(7, 13, 23, 0.07));
+}
+.add-profile2,
+.your-database2 {
+  position: absolute;
+  width: 19.18%;
+  top: 37.32%;
+  left: 72.99%;
+  letter-spacing: -0.01em;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-profile2 {
+  cursor: pointer;
+  text-decoration: none;
+  width: 14.89%;
+  left: 59.72%;
+  font-weight: 700;
+  background: linear-gradient(
+    126.21deg,
+    #6a35ee,
+    #9930ef 15.28%,
+    #5737ee 53.18%,
+    #795ceb
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.male-user-icon1 {
+  position: absolute;
+  top: 37px;
+  left: 1307px;
+  width: 97px;
+  height: 60px;
+  object-fit: cover;
+}
+.deedee2 {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  height: 39.01%;
+  width: 10.97%;
+  top: 32.39%;
+  left: 4.44%;
+  font-size: var(--font-size-21xl);
+  letter-spacing: -0.01em;
+  font-weight: 900;
+  color: inherit;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 142px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
